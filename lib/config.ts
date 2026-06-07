@@ -1,5 +1,5 @@
 export const SITE_CONFIG = {
-	url: process.env.NEXT_PUBLIC_SITE_URL ?? 'https://example.com',
+	url: process.env.NEXT_PUBLIC_SITE_URL || 'https://example.com',
 	name: process.env.NEXT_PUBLIC_SITE_TITLE ?? 'Example Site',
 	author: process.env.NEXT_PUBLIC_AUTHOR_NAME ?? 'Author',
 	authorEmail: process.env.NEXT_PUBLIC_AUTHOR_EMAIL ?? 'email@example.com',
