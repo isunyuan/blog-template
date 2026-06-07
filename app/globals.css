@@ -1,0 +1,29 @@
+@import 'tailwindcss';
+@plugin "@tailwindcss/typography";
+
+:root {
+	--background: #ffffff;
+	--foreground: #171717;
+}
+
+@media (prefers-color-scheme: dark) {
+	:root {
+		--background: #0a0a0a;
+		--foreground: #ededed;
+	}
+}
+
+html {
+	-webkit-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+	box-sizing: border-box;
+	scroll-behavior: smooth;
+}
+
+body {
+	line-height: 1.7;
+	color: #333;
+	background-color: #fff;
+	-webkit-font-smoothing: antialiased;
+	overflow-x: hidden;
+}
